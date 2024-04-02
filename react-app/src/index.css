@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+main{
+  max-width: 500px;
+  margin: auto;
+}
+.HeaderContainer{
+  display: flex;
+}
+.Header{
+  flex-grow: 1;
+}
+form{
+  display: flex;
+}
+form [ type = "text"]{
+width: 100%;
+padding:.25rem;
+border-radius: .5rem;
+border: 1px solid black;
+
+}
+form button{
+  padding:.3rem;
+  border: 1px solid black;
+  margin-right: .5rem;
+
+}
+.TaskContainer{
+  display: flex;
+  margin: .3rem;
+  padding:2px;
+  border-radius: 5px;
+  border: solid 1px #17181f;
+  
+}
+ 
+.TaskName{
+  flex-grow: 1;
+}
+input{
+  border: none;
+}
